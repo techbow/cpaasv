@@ -1,0 +1,459 @@
+/* CSS document for csfsv.com
+
+ * Author: Hannie Fan
+
+ * Date: December 22, 2008
+
+ */
+
+
+
+body {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 0.9em;
+
+	text-align:center;
+
+	color: #000000;
+
+	background: #640b0f url('../images/header950x150.jpg') no-repeat top center;
+
+	margin:0; 
+
+	padding:0;
+
+}
+
+
+
+/* Header Area */
+
+#header {
+
+	width: 950px;
+
+	height:122px;
+
+}
+
+#container {
+
+	margin:1px auto; 
+
+	width:950px;	
+
+	margin-bottom: 5px;
+
+	text-align: center;
+
+}
+
+#content {
+
+	background-color: #E8F0FF;	
+
+	width:950px;
+
+	/*border:2px solid #CC0033;
+
+	border-top:none;*/	
+
+}
+
+#content a:link {text-decoration: underline; color:#0000FF;}
+
+#content a:hover {color: #FF0000;}
+
+#content a:active {color: #00CC99;}
+
+#content a:visited {color: #9900CC;}
+
+.pfull {
+
+	margin: 0 15px;
+
+	padding: 5px 10px;
+
+	text-align:justify;
+
+}
+
+p {text-align:justify}
+
+
+
+/* event */
+
+.flash {
+
+	float: left;
+
+	width: 400px;
+
+	display: inline;
+
+	margin: 0 0 5px 5px;
+
+	padding: 5px;
+
+}
+
+.red {color: #990000; font: bold 1.6em Aria, Helvetica, sans-serif; padding-top:12px;}
+
+.decPic {
+
+	background:transparent url(../images/dec.gif) no-repeat bottom center; 
+
+	height:93px;
+
+	width:950px;
+
+}
+
+
+
+/* Text colors for tickets, FAQ pages */
+
+.purple {color: #660066}
+.blue {color: #3333ff}
+.magenta {color: magenta}
+.orange {color: orange}
+.olive {color: #999900; font: bold 1.6em Arial, Helvetica, sans-serif; paddong:12px}
+.olive1 {color: #999900; font: bold 1.0em Arial, Helvetica, sans-serif; paddong:12px}
+.olive2 {color: #999900; font: normal 1.0em Arial, Helvetica, sans-serif; paddong:12px}
+a.olive2 link {text-decoration: underline}
+
+#silver_sponsor ul { list-style-type: none; }
+
+#silver_sponsor ul li {background:transparent url(../images/bullet.gif) center left no-repeat; height:16px;} 
+
+
+
+/* Form Controls */
+
+form {display:inline;}
+
+input, select, optgroup, option, textarea, button{font: 0.9em Arial, Helvetica, sans-serif;}
+
+.middle, img, checkbox {vertical-align:middle}
+
+
+
+/* Program */
+
+.program {
+	float: left;
+	width: 520px;
+	display: inline;
+	padding: 10px 0px 10px 25px;
+	text-align:left;
+}
+
+.section {
+	font: bold 1em Arial, Helvetica, sans-serif;
+	color:#006633;	
+}
+
+.rightPic2 {
+
+	float:right;
+
+	display:inline; 
+
+	background:url('../images/godness.gif') no-repeat top left;
+
+	width: 391px;
+
+	height:470px; 
+
+}
+
+.rightPic3 {
+	float:right;
+	display:inline; 
+	background:url('../images/4dances.gif') no-repeat top left;
+	width: 380px;
+	height:220px; 
+}
+
+.rightPic_kongzhu {
+	float:left;
+	display:inline; 
+	background:url('../images/kongzhu_s.png') no-repeat;
+	width: 400px;
+	height:259px; 
+}
+
+.rightPic_circus {
+	float:right;
+	display:inline; 
+	background:url('../images/circus_s.png') no-repeat top right;
+	width: 300px;
+	height:511px; 
+}
+
+.rightPic_ballet {
+	float:left;
+	display:inline; 
+	background:url('../images/Swan-Lake-on-Shoulder_s.png') no-repeat top left;
+	width: 150px;
+	height:231px; 
+}
+
+.rightPic_moonlight {
+	float:right;
+	display:inline; 
+	background:url('../images/moonlight8_s.png') no-repeat top right;
+	width: 186px;
+	height:231px; 
+}
+
+.zodiacs {
+
+	background:url('../images/zodiacs951.jpg') no-repeat top center;
+
+	width: 951px;
+
+	height:328px; 
+
+}
+
+* html .zodiacs {
+
+	background:url('../images/zodiacs951.jpg') no-repeat top center;
+
+	width: 955px;
+
+	height:328px;
+
+	padding:0px;
+
+	margin:-5px;
+
+	clear:both;
+
+}
+
+/* sponsor */
+
+.groupLeft {
+
+	float: left;
+
+	width: 440px;
+
+	display: inline;
+
+	margin:0 0 10px 10px;
+
+	padding: 10px;
+
+	text-align:left;
+
+	background:url('../images/fu.gif') no-repeat right 650px;
+
+}
+
+.gxgx {
+
+	background:url('../images/gxgx.png') no-repeat top right;
+
+	width: 440px;
+
+	height:800px;
+
+}	
+
+.sponsorPack {
+
+	font: bold 1.1em Arial, Helvetica, sans-serif;
+
+	color: #006633;
+
+} 
+
+html>body .sponsorPack {
+
+	font: bold 1.1em Arial, Helvetica, sans-serif;
+
+	color: #006633;
+
+	margin-top:0px;
+
+} 
+
+/*.silver_sponsor {background:url('../images/silver_award.gif') no-repeat center 20px; width:21px; height:30px}*/
+
+.title {color: #FF0000; font-weight: bold; font-size: 1.0em;	}
+
+.diamond {color: #000000; font-weight: bold; font-size: 1.0em; }
+
+.jade {color: #00CC99; font-weight: bold; font-size: 1.0em; }
+
+.gold{color: #CC6600; font-weight: bold; font-size: 1.0em; }
+
+.ruby {color: #CC0033; font-weight: bold; font-size: 1.0em; }
+
+.silver {color: #999999; font-weight: bold; font-size: 1.0em;}
+
+.groupRight { 
+
+	float:right;  
+
+	width: 440px; 
+
+	display:inline;
+
+	margin:0 0 10px 20px; 
+
+	padding: 10px 15px 10px 5px;
+
+	text-align:justify; 
+
+	background:url('../images/plum_s.gif') no-repeat right 280px;
+
+}
+
+html>body .groupRight { 
+
+	background:url('../images/plum_s.gif') no-repeat 210px 280px;  /* fixed background image disappearing bug in FF for float component */
+
+}
+
+
+
+/* Tickets */
+
+#tickets {
+
+	float: left;
+
+	width: 600px;
+
+	display: inline;
+
+	padding: 10px 10px 10px 25px;
+
+	text-align:justify;
+
+}
+
+.ticket {
+
+	font: bold 1em Arial, Helvetica, sans-serif;
+
+	color: #006633;
+
+	padding: 5px 0;
+
+}
+
+.onlineOrder {padding: 0px 8px; text-align:justify}
+
+.price { width: 300px; padding-bottom:3px; nowrap}
+
+.rightPic4 { 
+
+	float:left;
+
+	display:inline;	  
+
+	background:url('../images/mongolian_t.gif') no-repeat bottom center;
+
+	width:300px;
+
+	height:400px;
+
+}
+
+.bottomPic { 
+
+	clear:both;
+
+	background:url('../images/DofCh4x2t.gif') no-repeat bottom left;
+
+	width:950px;
+
+	height:101px;
+
+}
+
+
+
+/* About Us */
+
+.aboutus {
+
+	float: left;
+
+	width: 630px;
+
+	display: inline;
+
+	padding: 10px 5px 10px 20px;
+
+	text-align:left;
+
+}
+
+.rightPic5 {
+
+	float:left;
+
+	display:inline;
+
+	margin:20px 10px 20px 15px; 
+
+	height:630px; 
+
+}
+
+
+
+/* FAQ */
+
+.faq {
+
+	float: left;
+
+	width: 630px;
+
+	display: inline;
+
+	padding: 10px 10px 10px 20px;
+
+	text-align:left;
+
+}
+
+.rightPic6 {
+
+	float:left;
+
+	display:inline;
+
+	margin:20px 10px 20px 5px; 
+
+}
+
+.addClear:after { /* does not work for IE 6 and below */
+
+	content:"";
+
+	display:block;
+
+	height:;
+
+	clear:both;
+
+}
+
+
+
+/* Footer */
+
+#footer {clear:both; width:100%; height:30px; text-align:center; padding: 10px 0;}
+
+.copyright {font: 0.8em arial,sans-serif; color:#ffffff;}
